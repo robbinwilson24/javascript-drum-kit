@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Drum Kit</title>
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="info">&#9432</div>
+
+    <div class="modal" style="display: none;">
+        <div class="innerModal">
+            <div class="modalContent">
+
+                <h3 class="modalHeading">Welcome to the this virtual Drum Kit, powered by JavaScipt!</h3>
+
+                <p class="modalP">This is a simple but fun functioning virtual drum kit.<br /><br />
+
+                    Simply interact with the different components of the drum by clicking on them
+                    or use the corresponding keys displayed on your keyboard to play the drum sounds.
+                    From the dynamic crash cymbal to the resonant kick drum, embrace your inner drummer and give it a
+                    go.<br /><br />
+
+                    Be advised that this virtual drum set is strictly intended for demonstration purposes
+                    and is not intended for commercial use. No financial gain is recieved from this
+                    project.<br /><br /><br />
+
+
+                    The sound effects utilised in this drum set are sourced from 99sounds.org.<br /><br />
+
+                    The functionality of the virtual drums have been inspired and assisted by the work of Wes Bos,
+                    and his creation of virtual drums (at wesbos.com ), that provided some the starter code required for
+                    this finished product.
+
+                </p>
+
+
+            </div>
+
+
+            <div class="closeModal">CLOSE</div>
+        </div>
+    </div>
+
+
+    <div class="keys">
+        <div data-key="65" class="key aKey">
+            <kbd>A</kbd>
+            <span class="sound">Ride</span>
+        </div>
+        <div data-key="83" class="key sKey">
+            <kbd>S</kbd>
+            <span class="sound">Crash</span>
+        </div>
+        <div data-key="68" class="key dKey">
+            <kbd>D</kbd>
+            <span class="sound">Bass Tom</span>
+        </div>
+        <div data-key="70" class="key fKey">
+            <kbd>F</kbd>
+            <span class="sound">Mid Tom</span>
+        </div>
+        <div data-key="71" class="key gKey">
+            <kbd>G</kbd>
+            <span class="sound">High Tom</span>
+        </div>
+        <div data-key="72" class="key hKey">
+            <kbd>H</kbd>
+            <span class="sound">Snare</span>
+        </div>
+        <div data-key="74" class="key jKey">
+            <kbd>J</kbd>
+            <span class="sound">Open Hat</span>
+        </div>
+        <div data-key="75" class="key kKey">
+            <kbd>K</kbd>
+            <span class="sound">Kick</span>
+        </div>
+        <div data-key="76" class="key lKey">
+            <kbd>L</kbd>
+            <span class="sound">High Hat</span>
+        </div>
+    </div>
+
+    <audio data-key="83" src="./assets/sounds/crash-acoustic.wav"></audio>
+    <audio data-key="76" src="./assets/sounds/hihat.wav"></audio>
+    <audio data-key="75" src="./assets/sounds/kick.wav"></audio>
+    <audio data-key="74" src="./assets/sounds/openhat.wav"></audio>
+    <audio data-key="71" src="./assets/sounds/tom-808.wav"></audio>
+    <audio data-key="65" src="./assets/sounds/ride.wav"></audio>
+    <audio data-key="72" src="./assets/sounds/snare.wav"></audio>
+    <audio data-key="68" src="./assets/sounds/tom.wav"></audio>
+    <audio data-key="70" src="./assets/sounds/tom-acoustic02.wav"></audio>
+
+    <script src="./app.js"></script>
+
+
+</body>
+
+</html>
+
+<!-- References:
+Stage Image:    Image by rawpixel.com
+Drums Image:    https://www.cleanpng.com/png-percussion-pearl-drums-acoustic-guitar-red-drum-5695309/download-png.html
+Sound Effects:  99sounds.org
+Inspiration and some starter code:    Virtual drums by Wes Bos at wesbos.com -->
