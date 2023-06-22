@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&display=swap');
+
 html {
     font-size: 10px;
     background: url('./assets/images/background.jpg') top center;
@@ -10,7 +12,7 @@ body,
 html {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Comfortaa", sans-serif;
 }
 
 
@@ -70,6 +72,7 @@ html {
 
 .kKey {
     position: absolute;
+    padding-top: 15px;
     z-index: 6;
     bottom: 34%;
     left: 37%;
@@ -114,20 +117,22 @@ html {
 
 .playing {
     transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    border-color: rgb(255, 198, 0);
+    box-shadow: 0 0 1rem rgb(255, 198, 0);
 }
 
-kbd {
+.keyboardKey {
     display: block;
     font-size: 2.5rem;
+    font: "Comfortaa", sans-serif;
+    font-weight: 700;
 }
 
 .sound {
     font-size: .9rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #ffc600;
+    color: rgb(255, 198, 0);
 }
 
 
@@ -158,34 +163,50 @@ kbd {
 }
 
 .innerModal {
-    color: #ffc600;
+    color: rgb(255, 198, 0);
     font-size: 1.5rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-    height: 60%;
-    padding: 3%;
+    height: 50%;
+    min-height: 335px;
+    min-width: 280px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 1.2%;
     border-radius: 25px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.6);
     box-sizing: border-box;
     z-index: 10000;
 }
 
 .modalContent {
-    height: 85%;
+    background-color: rgba(0, 0, 0, 0.959);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    max-height: 55%;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+.credits{
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: 700;
 }
 
 .closeModal {
     padding: 6px;
     padding-right: 25px;
     padding-left: 25px;
+    margin: 0 auto;
     margin-top: 20px;
     width: fit-content;
     cursor: pointer;
     border: 2px solid rgb(172, 39, 12);
-    color: #ffc600;
+    color: rgb(255, 198, 0);
     border-radius: 5px;
     font-size: 1.2rem;
     font-weight: 700;
@@ -200,16 +221,51 @@ kbd {
 }
 
 .closeModal:active {
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    border-color: rgb(255, 198, 0);
+    box-shadow: 0 0 1rem rgb(255, 198, 0);
 
 }
 
 .modalHeading {
-    font-size: 2rem;
+    font-size: 2.6rem;
+    font-weight: 700;
     color: rgb(219, 46, 12);
+    margin-top: 1%;
+    margin-bottom: -15px;
+}
+
+.subHeading{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
 }
 
 .modalP {
     font-size: 1.3rem;
 }
+
+.innerModal .modalContent::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .innerModal .modalContent::-webkit-scrollbar-track {
+    background-color: rgb(255, 198, 0);
+  }
+
+  .innerModal .modalContent::-webkit-scrollbar-thumb {
+    background-color: rgb(219, 46, 12);
+    border-radius: 5px;
+    transition: .2s;
+  }
+
+  .innerModal::-webkit-scrollbar-thumb:hover {
+    transition: .2s;
+    background-color: rgb(120, 120, 120);
+  }
+
+
+  @media (max-width: 900px) {
+    .keys {
+      border: 2px solid red;
+    }
+  }
+  
