@@ -1,8 +1,5 @@
-# javascript-drum-kit
-A virtual Drum Kit created with JavaScript, HTML and CSS. 
-
-
 # Virtual Drum Kit
+A virtual Drum Kit created with JavaScript, HTML and CSS. 
 
 ## Table of Contents
 1. [Full Description](#description)
