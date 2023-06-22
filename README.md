@@ -27,7 +27,7 @@ No financial gain is received from this project.
 - Interactive visual representation of the drum kit.
 - Realistic sound effects for each drum component.
 - Easy-to-use and intuitive interface.
-- Pop up modal with webkit scroll functionality. 
+- Pop-up modal with webkit scroll functionality. 
 
 ## Technologies Used: <a name="technologies"/>
 
@@ -38,7 +38,7 @@ No financial gain is received from this project.
 ## Credits  <a name="credits"/>
 ####Credits and References:
 
-- The sound effects utilized in this drum set are sourced from [99sounds.org](https://99sounds.org).
-- Credit  to Wes Bos ([wesbos.com](https://wesbos.com)) for inspiration, assistance in getting the functionality of these virtual drums to work, and providing the starter code used in the finished product.
+- The sound effects used in this virtual drum kit are sourced from [99sounds.org](https://99sounds.org).
+- Credit to Wes Bos ([wesbos.com](https://wesbos.com)) for inspiration, assistance in getting the functionality of these virtual drums to work, and providing the starter code used in the finished product.
 - Stage Image: Image by rawpixel.com
 - Drums Image: [https://www.cleanpng.com/png-percussion-pearl-drums-acoustic-guitar-red-drum-5695309/download-png.html](https://www.cleanpng.com/png-percussion-pearl-drums-acoustic-guitar-red-drum-5695309/download-png.html)
