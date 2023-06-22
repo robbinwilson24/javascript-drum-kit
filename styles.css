@@ -265,7 +265,7 @@ html {
 
   @media (max-width: 900px) {
     .keys {
-      border: 2px solid red;
+      padding-top: 100px;
     }
   }
   
